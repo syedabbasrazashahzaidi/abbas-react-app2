@@ -38,5 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://abbas3.surge.sh/ --token ${{secrets.SURGETOKEN_ABBAS}}  
-      # run: surge ./build ${{secrets.DOMAIN2}} --token ${{secrets.CLASS3N4_TOKEN}}
+      run: surge ./build http://abbas3.surge.sh/ --token ${{secrets.SURGETOKEN_ABBAS}}     
